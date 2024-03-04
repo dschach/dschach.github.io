@@ -27,7 +27,5 @@
     "marked": "^12.0.0",
     "prettier": "^3.2.5"
   },
-  "lint-staged": {
-
-  }
+  "lint-staged": {}
 }
