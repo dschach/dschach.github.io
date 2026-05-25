@@ -1,33 +1,35 @@
 {
-  "name": "dschach-pages",
-  "version": "1.0.0",
-  "description": "Public GitHub pages for David Schach",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dschach/dschach.github.io.git"
-  },
-  "keywords": [
-    "dschach",
-    "David",
-    "Schach"
-  ],
-  "author": "David Schach",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dschach/dschach.github.io/issues"
-  },
-  "homepage": "https://github.com/dschach/dschach.github.io#readme",
-  "scripts": {
-    "prepare": "husky install",
-    "precommit": "lint-staged"
-  },
-  "devDependencies": {
-    "husky": "^9.1.7",
-    "lint-staged": "^17.0.5",
-    "marked": "^18.0.4",
-    "prettier": "^3.8.3"
-  },
-  "lint-staged": {
-
-  }
+	"name": "dschach-pages",
+	"version": "1.0.0",
+	"description": "Public GitHub pages for David Schach",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dschach/dschach.github.io.git"
+	},
+	"keywords": [
+		"dschach",
+		"David",
+		"Schach"
+	],
+	"author": "David Schach",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dschach/dschach.github.io/issues"
+	},
+	"homepage": "https://github.com/dschach/dschach.github.io#readme",
+	"scripts": {
+		"prepare": "husky",
+		"precommit": "lint-staged"
+	},
+	"devDependencies": {
+		"husky": "^9.1.7",
+		"lint-staged": "^17.0.5",
+		"marked": "^18.0.4",
+		"prettier": "^3.8.3"
+	},
+	"lint-staged": {
+		"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,yaml,yml}": [
+			"prettier --write"
+		]
+	}
 }
