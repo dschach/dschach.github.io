@@ -25,7 +25,7 @@
 		"husky": "^9.1.7",
 		"lint-staged": "^17.0.5",
 		"marked": "^18.0.4",
-		"prettier": "^3.8.3"
+		"prettier": "^3.9.8"
 	},
 	"lint-staged": {
 		"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,yaml,yml}": [
